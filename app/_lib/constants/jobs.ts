@@ -12,7 +12,6 @@ export const jobs = [
       'As a front-end developer, I crafted a polished user interface using Next.js, React Query, Tailwind, and Mapbox,resulting in faster load times and improved overall performance.',
       'Implemented responsive design principles to guarantee a seamless user experience across diverse devices, ensuring optimal functionality and an aesthetically pleasing interface',
     ],
-
     date: 'December 2021 – Present',
     skils: [
       'Javascript',

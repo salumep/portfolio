@@ -7,7 +7,11 @@ export interface Job {
   description: string[];
   date: string;
   skils: string[];
-  links?: string[];
+  links?: Link[];
+}
+interface Link {
+  title: string;
+  url: string;
 }
 export interface Project extends Omit<Job, 'date' | 'links'> {
   img: {

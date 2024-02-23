@@ -11,7 +11,7 @@ function Education() {
     >
       <ol className="group/list">
         {education.map((edu) => (
-          <EducationCard edu={edu} />
+          <EducationCard key={edu.id} edu={edu} />
         ))}
       </ol>
     </section>

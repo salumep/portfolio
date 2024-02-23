@@ -30,8 +30,8 @@ export default function ProjectCard({ project }: { project: Project }) {
           <p className="mt-2 text-sm leading-normal">{project.description}</p>
 
           <ul className="mt-2 flex flex-wrap" aria-label="Technologies used:">
-            {project.skils.map((skil) => (
-              <li className="mr-1.5 mt-2">
+            {project.skils.map((skil, index) => (
+              <li key={index} className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full dark:bg-teal-400/10 bg-blue-100 px-3 py-1 text-xs font-medium leading-5 dark:text-light-blue text-blue-950 ">
                   {skil}
                 </div>

@@ -25,7 +25,10 @@ export default function ProjectTable() {
       </thead>
       <tbody>
         {projects.map((project) => (
-          <tr className="border-b border-slate-300/10 last:border-none">
+          <tr
+            className="border-b border-slate-300/10 last:border-none"
+            key={project.id}
+          >
             <td className="py-4 pr-4 align-top text-sm">
               <div className="translate-y-px">2023</div>
             </td>

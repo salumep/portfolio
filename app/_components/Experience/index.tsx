@@ -11,7 +11,7 @@ export default function Experience() {
     >
       <ol className="group/list">
         {jobs.map((job) => (
-          <ExperienceCard job={job} />
+          <ExperienceCard key={job.id} job={job} />
         ))}
       </ol>
     </section>
