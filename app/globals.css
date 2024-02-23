@@ -18,16 +18,30 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* background: #131c30; */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* container  */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
