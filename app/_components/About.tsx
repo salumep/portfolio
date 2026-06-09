@@ -7,12 +7,12 @@ export default function About() {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
       <div className="dark:text-white">
-        experienced individual with over 7 years in Front End Development,
-        WordPress, and Technical Management, driven by a passion for continuous
-        learning and professional growth. Always open to new challenges and
-        technologies. Excels in fostering collaboration between cross-functional
-        teams and leveraging a deep understanding of both technical and business
-        requirements.
+        Front-End Engineer with 7+ years of experience building scalable web
+        applications using React, Next.js, and TypeScript. Experienced in
+        e-commerce, real-time communication systems, and Web3 applications.
+        Strong background in performance optimization, SEO, and leading
+        cross-functional teams. Passionate about building intuitive products and
+        translating business requirements into high-quality user experiences .
       </div>
     </section>
   );

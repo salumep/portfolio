@@ -10,7 +10,7 @@ export default function SummaryDir() {
           <Link href="/">salome palizban</Link>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight dark:text-slate-200 sm:text-xl">
-          front end developer | technical maanger
+          Senior Front-End Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           Always open to new challenges and technologies.

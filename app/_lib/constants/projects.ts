@@ -1,6 +1,37 @@
 export const projects = [
   {
     id: 1,
+    title: 'AI Interview Simulator',
+    company: 'Personal Project',
+    location: 'Remote',
+    date: '2026',
+    url: 'https://ai-interview-simulator-snowy.vercel.app/',
+    github: 'https://github.com/salumep/ai-interview-simulator',
+    description: [
+      'Built an AI-powered interview simulation platform using Next.js and Supabase.',
+      'Designed relational database models and implemented Row Level Security (RLS) for secure data access.',
+      'Integrated authentication and session management using Supabase Auth.',
+      'Developed interview workflow management and AI-driven feedback generation features.',
+      'Deployed a production-ready prototype with full authentication, database integration, and responsive UI.',
+    ],
+    skils: [
+      'Next.js',
+      'TypeScript',
+      'React',
+      'Supabase',
+      'PostgreSQL',
+      'Authentication',
+      'RLS',
+      'AI',
+    ],
+    img: {
+      id: 1,
+      alt: 'AI Interview Simulator',
+      src: '/images/ai-interview-simulator.png',
+    },
+  },
+  {
+    id: 1,
     title: 'chromatplus',
     company: 'chromat',
     location: 'Tehran, Iran',

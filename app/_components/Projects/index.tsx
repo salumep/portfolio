@@ -11,7 +11,7 @@ export default function Projects() {
       aria-label="Selected projects"
     >
       <ul className="group/list">
-        {projects.slice(0, 2).map((item) => (
+        {projects.slice(0, 3).map((item) => (
           <ProjectCard key={item.id} project={item} />
         ))}
       </ul>
